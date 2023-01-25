@@ -1,15 +1,32 @@
 * {
-  border: 1px solid red;
+    background: gray
 }
 
 p {
-  color: green;
+  color: black;
+  font-size: 25px;
+  font-family: Calibri;
 }
 
 h1 {
-  color: maroon;
+  color: black;
+  text-align: center;
+}
+
+h2 {
+    color: #d2ae6d;
+    text-align: center;
+    font-size: 50px;
 }
 
 .title {
-  color: teal;
+    padding: 280px;
+    text-align: center;
+    background: #d2ae6d;
+    color: black;
+    font-size: 100px;
+}
+
+.logo {
+    text-align: right;
 }
