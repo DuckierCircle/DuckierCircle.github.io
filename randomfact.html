@@ -5,9 +5,10 @@
 <head>
     <title>Random Fact WBF</title>
     <link href='style/indexStyle.css' rel='stylesheet'>
+    <script src="script/randomFact.js"></script></script>
 </head>
 
-<body>
+<body onload="randomFact()">
     <a href="https://waterbuffalofacts.com">Home</a>
     <a href="contact.html">Contact Us</a>
     <a href="randomfact.html">Random Fact</a>
@@ -18,7 +19,8 @@
          alt="Water Buffalo Facts Logo" />
     <br>
     <h1>Did you know?</h1>
-    <p>ur dumb lol</p>
+    <p id="output"></p>
+    <button onclick="randomFact()">Click For a New Fact</button>
 </body>
 
 </html>
