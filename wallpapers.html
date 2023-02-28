@@ -4,11 +4,11 @@
 
 <head>
     <title>Random Wallpaper</title>
-    <script src="wallpaperScript.js"></script>
     <link href='style/indexStyle.css' rel='stylesheet'>
+    <script src="script/wallpaperScript.js"></script>
 </head>
 
-<body>
+<body onload="randomWallpaper()">
     <a href="https://waterbuffalofacts.com">Home</a>
     <a href="contact.html">Contact Us</a>
     <a href="randomfact.html">Random Fact</a>
@@ -18,10 +18,13 @@
          height="200"
          alt="Water Buffalo Facts Logo" />
     <br>
-    <h1>Left click the picture for a new wallpaper</h1>
-        <p onclick="randomWallpaper();">
-            <img src="images/wbf_wallpapers/water_buffalo1.jpg">
-        </p>
+    <h1>Click the image for a new wallpaper</h1>
+    <p>
+        <img id="wallpaper"
+             height="800"
+             class="centerImage"
+             onclick="randomWallpaper()"/>
+    </p>
 </body>
 
 </html>

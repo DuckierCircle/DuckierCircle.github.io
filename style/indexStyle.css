@@ -30,3 +30,18 @@ h2 {
 .logo {
     text-align: right;
 }
+
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.fact {
+    text-align:center;
+}
+
+.button {
+    background: #d2ae6d;
+}

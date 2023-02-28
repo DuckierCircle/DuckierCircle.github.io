@@ -5,7 +5,7 @@
 <head>
     <title>Random Fact WBF</title>
     <link href='style/indexStyle.css' rel='stylesheet'>
-    <script src="script/randomFact.js"></script></script>
+    <script src="script/randomFact.js"></script>
 </head>
 
 <body onload="randomFact()">
@@ -19,8 +19,10 @@
          alt="Water Buffalo Facts Logo" />
     <br>
     <h1>Did you know?</h1>
-    <p id="output"></p>
-    <button onclick="randomFact()">Click For a New Fact</button>
+    <p id="output" class="fact"></p>
+    <h1>
+        <button onclick="randomFact()" class="button">Click For a New Fact</button>
+    </h1>
 </body>
 
 </html>
