@@ -1,11 +1,13 @@
-* {
-    background: gray
+body{
+    margin: 0;
+    background: gray;
 }
 
 p {
   color: black;
   font-size: 25px;
   font-family: Calibri;
+  margin: 0px 40px 0px 40px;
 }
 
 h1 {
@@ -27,9 +29,6 @@ h2 {
     font-size: 100px;
 }
 
-.logo {
-    text-align: right;
-}
 
 .centerImage {
     display: block;
@@ -45,3 +44,90 @@ h2 {
 .button {
     background: #d2ae6d;
 }
+
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #d2ae6d;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 52px;
+
+    position: relative;
+}
+
+
+nav a {
+    color: #00131E;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: gray;
+
+    position: absolute;
+    top: 45px;
+    width: 0%;
+
+    transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+nav a::after {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: gray;
+    
+    position: absolute;
+    top: 71px;
+    width: 0%;
+
+    transition: all ease-in-out 200ms;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
+
+
+
