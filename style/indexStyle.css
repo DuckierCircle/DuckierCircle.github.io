@@ -21,6 +21,19 @@ h2 {
     font-size: 50px;
 }
 
+.index-banner {
+    padding: 80px;
+    text-align: center;
+    background-image: url(css-images/index-banner.jpg);
+    color: #d2ae6d;
+    text-shadow: 3px 3px 5px black;
+    font-size: 100px;
+}
+
+.subtitle {
+    text-shadow: 3px 3px 5px black;
+}
+
 .title {
     padding: 280px;
     text-align: center;
