@@ -36,6 +36,8 @@ img {
     text-shadow: 3px 3px 5px #00131E;
     font-size: 100px;
     margin: 50px 0 0 0;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .subtitle {
@@ -84,9 +86,7 @@ header::after {
 
 .logo {
     display: block;
-    margin: 0 auto 0 0;
-    float: left;
-    padding: 10px 0;
+    margin: 0 0 0 0;
 }
 
 nav {
