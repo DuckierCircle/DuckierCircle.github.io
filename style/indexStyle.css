@@ -12,9 +12,9 @@ p {
 }
 
 h1 {
-    color: #c0c0c0;
+    color: #82AECB;
     text-align: center;
-    margin: 0px 100px 0px 100px;
+    margin: 20px 100px 10px 100px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -58,6 +58,13 @@ img {
     font-size: 100px;
 }
 
+.random-wallpaper {
+    border: 3px solid transparent;
+}
+
+.random-wallpaper:hover {
+    border: 3px solid silver;
+}
 
 .centerImage {
     display: block;
@@ -72,6 +79,14 @@ img {
 
 .button {
     background: #c0c0c0;
+}
+
+.button:hover {
+    background: #82AECB;
+}
+
+.button:active {
+    color: white;
 }
 
 .navbar {
@@ -121,15 +136,11 @@ nav li {
         font-weight: bold;
     }
 
-        nav a:hover {
-            color: gray;
-        }
-
 nav a::before {
     content: '';
     display: block;
     height: 5px;
-    background-color: gray;
+    background-color: #001324;
 
     position: absolute;
     top: 45px;
@@ -145,7 +156,7 @@ nav a::after {
     content: '';
     display: block;
     height: 5px;
-    background-color: gray;
+    background-color: #001324;
 
     position: absolute;
     top: 71px;
