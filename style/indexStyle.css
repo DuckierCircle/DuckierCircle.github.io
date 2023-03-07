@@ -1,24 +1,29 @@
-body{
+body {
     margin: 0;
-    background: gray;
+    background: #00131E;
 }
 
 p {
-  color: black;
-  font-size: 25px;
-  font-family: Calibri;
-  margin: 0px 40px 0px 40px;
+    color: #d2ae6d;
+    font-size: 25px;
+    font-family: Calibri;
+    margin: 0px 200px 0px 200px;
+    background: #00131E;
 }
 
 h1 {
-  color: black;
-  text-align: center;
+    color: #c0c0c0;
+    text-align: center;
 }
 
 h2 {
-    color: #d2ae6d;
+    color: #c0c0c0;
     text-align: center;
     font-size: 50px;
+}
+
+img {
+    margin: 0px 200px 0px 200px;
 }
 
 .index-banner {
@@ -26,12 +31,14 @@ h2 {
     text-align: center;
     background-image: url(css-images/index-banner.jpg);
     color: #d2ae6d;
-    text-shadow: 3px 3px 5px black;
+    text-shadow: 3px 3px 5px #00131E;
     font-size: 100px;
+    margin: 50px 0 0 0;
 }
 
 .subtitle {
-    text-shadow: 3px 3px 5px black;
+    color: #c0c0c0;
+    text-shadow: 1px 1px 3px black;
 }
 
 .title {
@@ -55,7 +62,7 @@ h2 {
 }
 
 .button {
-    background: #d2ae6d;
+    background: #c0c0c0;
 }
 
 .navbar {
@@ -104,39 +111,37 @@ nav a {
     font-weight: bold;
 }
 
-nav a:hover {
-    color: gray;
-}
+    nav a:hover {
+        color: gray;
+    }
 
-nav a::before {
-    content: '';
-    display: block;
-    height: 5px;
-    background-color: gray;
+    nav a::before {
+        content: '';
+        display: block;
+        height: 5px;
+        background-color: gray;
 
-    position: absolute;
-    top: 45px;
-    width: 0%;
-
-    transition: all ease-in-out 200ms;
-}
+        position: absolute;
+        top: 45px;
+        width: 0%;
+        transition: all ease-in-out 200ms;
+    }
 
 nav a:hover::before{
     width: 100%;
 }
 
-nav a::after {
-    content: '';
-    display: block;
-    height: 5px;
-    background-color: gray;
-    
-    position: absolute;
-    top: 71px;
-    width: 0%;
+    nav a::after {
+        content: '';
+        display: block;
+        height: 5px;
+        background-color: gray;
 
-    transition: all ease-in-out 200ms;
-}
+        position: absolute;
+        top: 71px;
+        width: 0%;
+        transition: all ease-in-out 200ms;
+    }
 
 nav a:hover::after {
     width: 100%;
