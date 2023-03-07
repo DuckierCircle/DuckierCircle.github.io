@@ -14,12 +14,14 @@ p {
 h1 {
     color: #c0c0c0;
     text-align: center;
+    margin: 0px 200px 0px 200px;
 }
 
 h2 {
     color: #c0c0c0;
     text-align: center;
     font-size: 50px;
+    margin: 40px 200px 20px 200px;
 }
 
 img {
@@ -81,6 +83,8 @@ header::after {
 }
 
 .logo {
+    display: block;
+    margin: 0 auto 0 0;
     float: left;
     padding: 10px 0;
 }
