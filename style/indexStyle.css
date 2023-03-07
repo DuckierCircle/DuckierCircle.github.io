@@ -36,16 +36,11 @@ img {
     background-image: url(css-images/test4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    color: rgba(0, 0, 0, 0);
-    text-shadow: 0px 0px 10px 0;
+    color: #001324;
+    text-shadow: 0 0 10px gray;
     font-size: 100px;
     margin: 60px 0 0 0;
     font-size: 80px;
-}
-
-.index-banner:hover {
-    color: #001324;
-    text-shadow: 0 0 10px gray;
 }
 
 .subtitle {
