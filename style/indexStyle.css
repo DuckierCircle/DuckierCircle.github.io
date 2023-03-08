@@ -89,6 +89,7 @@ img {
 .buf-background {
     background-image: url(css-images/buf-background.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .button {
