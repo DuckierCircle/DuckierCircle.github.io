@@ -106,9 +106,11 @@ img {
 }
 
 .fact-container {
-    margin: 300px 100px;
+    margin: 300px 500px;
     background: #00131E;
     text-shadow: 1px 1px 3px black;
+    border-radius: 10px;
+    border: 5px solid gray;
 }
 
 .fact-container h1 {
