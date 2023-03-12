@@ -3,15 +3,15 @@
 <html>
 
 <head>
-    <title>Random Facts About Water Buffalos</title>
+    <title>Random Wallpaper</title>
     <link href='style/indexStyle.css' rel='stylesheet'>
-    <script src="script/randomFact.js"></script>
+    <script src="script/wallpaperScript.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="A page with a button to generate a random fact about water buffalos">
+    <meta name="description" content="A page with water buffalo wallpapers">
 </head>
 
-<body onload="randomFact()" class="buf-background">
+<body onload="randomWallpaper()">
     <header>
         <div class="navbar">
             <nav>
@@ -33,13 +33,13 @@
         </div>
     </header>
 
-    <div class="fact-container">
-        <h1>Did you know?</h1>
-        <p id="output" class="fact"></p>
-        <h1>
-            <button onclick="randomFact()" class="button">Click For a New Fact</button>
-        </h1>
-    </div>
+    <h1>Click the image for a new wallpaper</h1>
+    <p>
+        <img id="wallpaper"
+             height="700"
+             class="centerImage random-wallpaper"
+             onclick="randomWallpaper();" />
+    </p>
 </body>
 
 </html>

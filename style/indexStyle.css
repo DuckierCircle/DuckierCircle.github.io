@@ -57,6 +57,33 @@ img {
     font-size: 100px;
 }
 
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    max-width: 1800px;
+}
+
+.wallpaper {
+    width: 100%;
+    height: 300px;
+    max-width: 400px;
+    object-fit: cover;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0;
+    border: 3px solid transparent;
+    border-radius: 10px;
+}
+
+.wallpaper:hover {
+    border: 3px solid silver;
+}
+
 .random-wallpaper {
     border: 3px solid transparent;
 }
