@@ -34,6 +34,7 @@
 .button {
     background: #c0c0c0;
     padding: 5px;
+    border-radius: 3px;
 }
 
 .button:hover {
@@ -84,7 +85,7 @@
         margin: 300px 100px;
     }
     .fact {
-        height: 40px;
+        height: 50px;
     }
     .button {
         font-size: 24px;
@@ -104,7 +105,7 @@
     }
 
     .fact {
-        height: 40px;
+        height: 50px;
     }
 }
 
@@ -114,7 +115,7 @@
     }
 
     .fact {
-        height: 40px;
+        height: 50px;
     }
 }
 
@@ -124,7 +125,7 @@
     }
 
     .fact {
-        height: 40px;
+        height: 50px;
     }
 }
 
@@ -134,6 +135,6 @@
     }
 
     .fact {
-        height: 70px;
+        height: 75px;
     }
 }

@@ -177,10 +177,8 @@ nav a:hover::after {
     }
 }
 
+/***navbar goes weird right after 725px***/
 @media (max-width: 725px) {
-    nav a {
-       color: transparent; 
-    }
 }
 
 @media (max-width: 650px) {
