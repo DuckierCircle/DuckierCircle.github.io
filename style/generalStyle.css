@@ -27,7 +27,7 @@ h2 {
 }
 
 img {
-    margin: 0px 150px 0px 150px;
+    margin: 0px 0px 0px 0px;
 }
 
 footer {
@@ -38,6 +38,7 @@ footer {
     display: flex;
     justify-content: center;
     border-top: 20px solid #82AECB;
+    margin-top: 40px;
 }
 
 .ending-logo{
