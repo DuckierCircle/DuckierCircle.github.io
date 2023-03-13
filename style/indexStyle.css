@@ -28,6 +28,7 @@
 }
 
 .button {
+    text-decoration: none;
     background-image: linear-gradient(#d2ae6d, white, #d2ae6d);
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     font-size: 50px;
@@ -42,7 +43,7 @@
         cursor: pointer;
     }
 
-button:active {
+.button:active {
     background-image: linear-gradient(rgb(170, 134, 69), white, rgb(170, 134, 69));
 }
 
