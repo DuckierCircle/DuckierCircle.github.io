@@ -1,0 +1,11 @@
+ /*veggietales links*/
+    .secret-link {
+        display: block;
+        text-align: right;
+        margin: 190px 0 0 0;
+    }
+
+    .veggietales {
+        display: block;
+        margin: 30px auto;
+    }

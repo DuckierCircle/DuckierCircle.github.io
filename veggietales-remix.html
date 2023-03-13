@@ -5,33 +5,17 @@
 
 <head>
     <title>Veggietales Remix - The Water Buffalo Song</title>
-    <link href='style/indexStyle.css' rel='stylesheet'>
+    <link href='style/generalStyle.css' rel='stylesheet'>
+    <link href='style/veggietalesStyle.css' rel='stylesheet'>
+    <script src="script/navbar.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="A page with a remix of a song about water buffalos from veggietales">
 </head>
 
 
-<body>
-    <header>
-        <div class="navbar">
-            <nav>
-                <ul>
-                    <li><a href="https://waterbuffalofacts.com">Home</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="randomfact.html">Random Fact</a></li>
-                    <li><a href="wallpapers.html">Wallpapers</a></li>
-                </ul>
-            </nav>
-            <a href="https://waterbuffalofacts.com">
-                <img style="float: left;"
-                     src='images/wbf_logo.png'
-                     width="120"
-                     height="120"
-                     alt="Water Buffalo Facts Logo"
-                     class="logo"/>
-            </a>
-        </div>
+<body onload="navbar()">
+    <header id="navbar">
     </header>
 
     <iframe width="980" height="607" src="https://www.youtube.com/embed/IkDcmKMa2S0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="veggietales"></iframe>
