@@ -38,13 +38,12 @@ footer {
     display: flex;
     justify-content: center;
     border-top: 20px solid #82AECB;
-    margin-top: 40px;
 }
 
 .ending-logo{
     width: 200px;
     height: 200px;
-    margin: 75px 100px 75px 100px;
+    margin: 50px 80px 50px 80px;
 }
 
 
@@ -151,7 +150,7 @@ nav a:hover::after {
 /*Smaller Screens*/
 @media (max-width: 1200px) {
     .ending-logo {
-        margin: 75px 70px 75px 70px;
+        margin: 40px 70px 40px 70px;
     }
     nav li {
         margin-left: 30px;
@@ -160,7 +159,7 @@ nav a:hover::after {
 
 @media (max-width: 950px) {
     .ending-logo {
-        margin: 50px 10px 50px 10px;
+        margin: 30px 20px 30px 20px;
     }
 
     h1 {
@@ -179,13 +178,15 @@ nav a:hover::after {
 
 /***navbar goes weird right after 725px***/
 @media (max-width: 725px) {
-}
+    .ending-logo {
+        margin: 30px 8px 30px 8px;
+    }
 
 @media (max-width: 650px) {
     .ending-logo {
-        width: 100px;
-        height: 100px;
-        margin: 40px 30px 40px 30px;
+        width: 130px;
+        height: 130px;
+        margin: 30px 10px 30px 10px;
     }
     .center-items {
         border-top: solid 5px #82AECB;
