@@ -48,46 +48,6 @@ footer {
 }
 
 
-/*******/
-/*Smaller Screens*/
-@media (max-width: 1200px) {
-    .ending-logo {
-        margin: 75px 70px 75px 70px;
-    }
-}
-
-@media (max-width: 950px) {
-    .ending-logo {
-        margin: 50px 10px 50px 10px;
-    }
-    h1 {
-        margin: 20px 20px 10px 20px;
-        padding: 0;
-    }
-    h2 {
-        margin: 40px 20px 20px 20px;
-        padding: 0;
-    }
-}
-
-@media (max-width: 650px) {
-    .ending-logo {
-        width: 100px;
-        height: 100px;
-        margin: 40px 30px 40px 30px;
-    }
-    .center-items {
-        border-top: solid 5px #82AECB;
-    }
-}
-
-@media (max-width: 500px) {
-    .ending-logo {
-        width: 100px;
-        height: 100px;
-        margin: 15px 10px 15px 10px;
-    }
-}
 
 
 /**********************/
@@ -139,37 +99,105 @@ nav a {
     font-weight: bold;
 }
 
-nav a::before {
+nav a:hover {
+    border-top: 7px double #001324;
+    border-bottom: 7px double #001324;
+    transition: all ease-in-out 300ms;
+}
+
+/*  OBSELETE NAVBAR ANIMATION
+    
+    nav a::before {
     content: '';
     display: block;
-    height: 5px;
+    height: 0px;
     background-color: #001324;
+    margin-left: -10%;
 
     position: absolute;
     top: 45px;
-    width: 0%;
+    width: 120%;
     transition: all ease-in-out 200ms;
 }
 
 nav a:hover::before{
-    width: 100%;
+    height: 5px;
+    width: 120%;
 }
 
 nav a::after {
     content: '';
     display: block;
-    height: 5px;
+    height: 0px;
     background-color: #001324;
+    margin-left: -10%;
 
     position: absolute;
     top: 71px;
-    width: 0%;
+    width: 120%;
     transition: all ease-in-out 200ms;
 }
 
 nav a:hover::after {
-    width: 100%;
+    height: 5px;
+    width: 120%;
 }
 
+*/
 
 
+
+/*******/
+/*Smaller Screens*/
+@media (max-width: 1200px) {
+    .ending-logo {
+        margin: 75px 70px 75px 70px;
+    }
+    nav li {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 950px) {
+    .ending-logo {
+        margin: 50px 10px 50px 10px;
+    }
+
+    h1 {
+        margin: 20px 20px 10px 20px;
+        padding: 0;
+    }
+
+    h2 {
+        margin: 40px 20px 20px 20px;
+        padding: 0;
+    }
+    nav li {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 725px) {
+    nav a {
+       color: transparent; 
+    }
+}
+
+@media (max-width: 650px) {
+    .ending-logo {
+        width: 100px;
+        height: 100px;
+        margin: 40px 30px 40px 30px;
+    }
+    .center-items {
+        border-top: solid 5px #82AECB;
+    }
+}
+
+@media (max-width: 500px) {
+    .ending-logo {
+        width: 100px;
+        height: 100px;
+        margin: 15px 10px 15px 10px;
+    }
+}
