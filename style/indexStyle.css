@@ -98,19 +98,13 @@ img {
     margin-right: auto;
 }
 
-.fact-layout {
-    display: cover;
-    width: 1000px;
-    height: 500px;
-    background-image: url(css-images/buf-background.jpg);
-}
 
 .fact-container {
     margin: 300px 500px;
-    background: #00131E;
+    background: rgba(0, 0, 0, 1);
     text-shadow: 1px 1px 3px black;
     border-radius: 10px;
-    border: 5px solid gray;
+    border: 5px solid #d2ae6d;
     overflow: hidden;
     white-space: nowrap;
 }
@@ -207,7 +201,8 @@ img {
 }
 
 .buf-background {
-    background-image: url(css-images/buf-background.jpg);
+    background-image: url(css-images/water-image.jpg);
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
