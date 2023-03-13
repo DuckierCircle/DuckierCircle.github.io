@@ -85,6 +85,9 @@
     .subtitle {
         font-size: 25px;
     }
+    p {
+        font-size: 16px;
+    }
 }
 
     @media (max-width: 520px) {
@@ -95,6 +98,9 @@
         .subtitle {
             font-size: 25px;
         }
+        p {
+            font-size: 16px;
+        }
     }
 
 @media (max-width: 450px) {
@@ -104,6 +110,9 @@
     }
     .subtitle {
         font-size: 22px;
+    }
+    p {
+        font-size: 16px;
     }
 }
     /*********************/
