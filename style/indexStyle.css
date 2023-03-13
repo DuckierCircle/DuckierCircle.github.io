@@ -101,7 +101,7 @@ img {
 .fact-layout {
     display: cover;
     width: 1000px;
-    height: 100%;
+    height: 500px;
     background-image: url(css-images/buf-background.jpg);
 }
 
@@ -111,6 +111,8 @@ img {
     text-shadow: 1px 1px 3px black;
     border-radius: 10px;
     border: 5px solid gray;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .fact-container h1 {
@@ -119,8 +121,89 @@ img {
     padding-bottom: 20px;
 }
 
+.fact-container p {
+    margin: 0px 20px 0px 20px;
+}
+
 .fact {
     text-align:center;
+}
+
+@media (max-width: 1800px) {
+    .fact-container {
+        white-space: normal;
+        overflow: visible;
+    }
+    .fact {
+        height: 40px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .fact-container {
+        margin: 300px 300px;
+    }
+    .fact {
+        height: 40px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .fact-container {
+        margin: 300px 200px;
+    }
+    .fact {
+        height: 40px;
+    }
+}
+
+@media (max-width: 900px) {
+    .fact-container {
+        margin: 300px 100px;
+    }
+
+    .fact {
+        height: 40px;
+    }
+}
+
+@media (max-width: 750px) {
+    .fact-container {
+        margin: 300px 50px;
+    }
+    .fact {
+        height: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .fact-container {
+        margin: 300px 30px;
+    }
+
+    .fact {
+        height: 40px;
+    }
+}
+
+@media (max-width: 525px) {
+    .fact-container {
+        margin: 300px 15px;
+    }
+
+    .fact {
+        height: 40px;
+    }
+}
+
+@media (max-width: 490px) {
+    .fact-container {
+        margin: 300px 15px;
+    }
+
+    .fact {
+        height: 70px;
+    }
 }
 
 .buf-background {
