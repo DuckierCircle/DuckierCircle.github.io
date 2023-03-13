@@ -102,7 +102,7 @@ nav a {
 nav a:hover {
     border-top: 7px double #001324;
     border-bottom: 7px double #001324;
-    transition: all ease-in-out 300ms;
+    transition: all ease-in-out 250ms;
 }
 
 /*  OBSELETE NAVBAR ANIMATION
