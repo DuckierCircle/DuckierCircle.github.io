@@ -68,13 +68,16 @@ footer {
         height: 100px;
         margin: 40px 30px 40px 30px;
     }
+    .center-item {
+        border-top: solid 5px #82AECB;
+    }
 }
 
 @media (max-width: 500px) {
     .ending-logo {
         width: 100px;
         height: 100px;
-        margin: 0px 10px 0px 10px;
+        margin: 15px 10px 15px 10px;
     }
 }
 
