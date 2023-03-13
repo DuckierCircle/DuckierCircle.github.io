@@ -80,6 +80,13 @@ img {
     border-radius: 10px;
 }
 
+@media (max-width: 450px) {
+    .wallpaper {
+        width: 300px;
+        height: 225px;
+    }
+}
+
 .wallpaper:hover {
     border: 3px solid silver;
 }
