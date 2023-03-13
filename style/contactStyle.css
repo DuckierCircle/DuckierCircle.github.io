@@ -51,4 +51,19 @@ h2 {
     body {
         background-size: 900px auto;
     }
+    .container {
+        background: rgba(0, 19, 30, 0.9)
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        background-image: url(css-images/contact-image-mobile.jpg)
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        background-size: 400px auto;
+    }
 }
