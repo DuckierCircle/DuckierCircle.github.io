@@ -30,6 +30,53 @@ img {
     margin: 0px 150px 0px 150px;
 }
 
+footer {
+    background: black;
+}
+
+.center-items {
+    display: flex;
+    justify-content: center;
+    border-top: 20px solid #82AECB;
+}
+
+.ending-logo{
+    width: 200px;
+    height: 200px;
+    margin: 75px 100px 75px 100px;
+}
+
+
+/*******/
+/*Smaller Screens*/
+@media (max-width: 1200px) {
+    .ending-logo {
+        margin: 75px 70px 75px 70px;
+    }
+}
+
+@media (max-width: 950px) {
+    .ending-logo {
+        margin: 50px 10px 50px 10px;
+    }
+}
+
+@media (max-width: 650px) {
+    .ending-logo {
+        width: 100px;
+        height: 100px;
+        margin: 40px 30px 40px 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .ending-logo {
+        width: 100px;
+        height: 100px;
+        margin: 0px 10px 0px 10px;
+    }
+}
+
 
 /**********************/
 /*navbar*/
