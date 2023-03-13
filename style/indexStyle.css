@@ -52,10 +52,13 @@ button:active {
     p {
         margin: 0px 20px 0px 20px;
     }
-
     .subtitle {
         padding: 20px;
         margin: 0px;
+    }
+    .button {
+        margin: auto;
+        display: block;
     }
 }
     /*********************/
