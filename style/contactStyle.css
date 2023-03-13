@@ -56,7 +56,7 @@ h2 {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 490px) {
     body {
         background-image: url(css-images/contact-image-mobile.jpg)
     }
