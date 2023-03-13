@@ -101,7 +101,7 @@ img {
 
 .fact-container {
     margin: 300px 500px;
-    background: rgba(0, 0, 0, 1);
+    background: rgb(20, 20, 20);
     text-shadow: 1px 1px 3px black;
     border-radius: 10px;
     border: 5px solid #d2ae6d;
