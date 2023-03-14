@@ -23,7 +23,7 @@ body {
 
 @keyframes navLogo {
     0% {
-        transform: translateY(40vh) translateX(40vw) scale(1);
+        transform: translateY(40vh) translateX(40vw) scale(0);
     }
     25% {
         transform: translateY(40vh) translateX(40vw) scale(3);
@@ -34,6 +34,8 @@ body {
     100% {
         transform: translateY(0%) translateX(0%) scale(1);
     }
+    0% { opacity: 0 }
+    25% { opacity: 1 }
 }
 
 nav a {
@@ -77,7 +79,7 @@ nav a {
     color: #82AECB;
     text-shadow: 1px 1px 3px black;
     font-family: Arial, Helvetica, sans-serif;
-    animation: fadeInSubtitle 8s;
+    animation: fadeInSubtitle 7s;
 }
 
 .slide-up {
