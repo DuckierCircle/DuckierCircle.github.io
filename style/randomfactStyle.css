@@ -39,7 +39,7 @@
 
 .button:hover {
     background: #82AECB;
-    font-weight: bold;
+    cursor: pointer;
 }
 
 .button:active {

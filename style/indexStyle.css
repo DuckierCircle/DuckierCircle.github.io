@@ -93,7 +93,7 @@
 }
 
     .button:hover {
-        font-weight: bold;
+        text-shadow: 0.5px 0px 0px #00131E, -0.5px 0px 0px #00131E, 0px 0.5px 0px #00131E, 0px -0.5px 0px #00131E;
         background-color: #92BEDB;
         cursor: pointer;
     }
