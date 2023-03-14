@@ -11,7 +11,11 @@
     margin: 60px 0 0 0;
     font-size: 65px;
     font-family: 'Palatino Linotype';
-    animation: slideIn 2000ms;
+    animation: slideInBanner 2000ms;
+}
+
+.slide-left {
+    overflow-x: hidden;
 }
 
 .readable {
@@ -30,11 +34,15 @@
     animation: fadeInSubtitle 6500ms;
 }
 
-.main-text {
-    animation: fadeInText 7000ms;
+.slide-up {
+    overflow-y: hidden;
 }
 
-@keyframes slideIn {
+.main-text {
+    animation: slideInText 8000ms;
+}
+
+@keyframes slideInBanner {
     from {
         transform: translateX(100%);
     }
@@ -54,17 +62,17 @@
 
 @keyframes fadeInSubtitle {
     0% { opacity: 0; }
-    50% { opacity:0; }
+    40% { opacity:0; }
     100% { opacity: 1; }
 }
 
-@keyframes fadeInText {
+@keyframes slideInText {
     
     from {
-        transform: translateX(-100%);
+        transform: translateY(100%);
     }
     to {
-        transform: translateX(0%);
+        transform: translateY(0%);
     }
 }
 
@@ -87,6 +95,10 @@
 
 .button:active {
     background-image: linear-gradient(rgb(170, 134, 69), white, rgb(170, 134, 69));
+}
+
+.bottom-spacer {
+    margin-bottom: 20px;
 }
 
 
@@ -170,13 +182,11 @@
 
 
     /*veggietales links*/
-.secret-link {
-    display: block;
-    text-align: right;
-    margin: 0px 0 0 0;
+.veggie-link {
+    float: right;
 }
 
-    .veggietales {
-        display: block;
-        margin: 30px auto;
-    }
+.veggietales {
+    display: block;
+    margin: 30px auto;
+}
