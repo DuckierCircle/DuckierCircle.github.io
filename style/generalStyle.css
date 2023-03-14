@@ -3,6 +3,7 @@
 body {
     margin: 0;
     background: #00131E;
+    padding-top: 120px;
 }
 
 p {
@@ -62,11 +63,14 @@ footer {
 }
 
 
-#navbar-container {
+#navbarContainer {
     background: #d2ae6d;
     width: 100%;
     height: 120px;
     z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .logo {
@@ -78,6 +82,10 @@ footer {
 
 nav {
     float: right;
+}
+
+#nav-menu {
+    margin: 0;
 }
 
 nav ul {
@@ -194,12 +202,15 @@ nav a:hover::after {
             text-align: center;
             z-index: 1;
             margin: -100%;
+            border-radius: 0 0 0 6px;
+            border-left: 3px solid black;
+            border-bottom: 3px solid black;
         }
 
         nav li {
             display: block;
             padding-top: 0;
-            margin: 30px 5px;
+            margin: 30px 10px;
         }
 
         nav a:hover {
