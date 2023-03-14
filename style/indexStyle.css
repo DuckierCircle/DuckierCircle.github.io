@@ -76,6 +76,11 @@
     }
 }
 
+.button-container{
+    display: block;
+    margin: 10px 100px 100px 100px;
+}
+
 .button {
     text-decoration: none;
     background-image: linear-gradient(#d2ae6d, white, #d2ae6d);
@@ -95,10 +100,6 @@
 
 .button:active {
     background-image: linear-gradient(rgb(170, 134, 69), white, rgb(170, 134, 69));
-}
-
-.bottom-spacer {
-    margin-bottom: 20px;
 }
 
 
@@ -122,8 +123,8 @@
 
     .button {
         display: block;
-        margin: auto;
-        width: 40%;
+        margin: 0px auto 60px auto;
+        width: 60%;
     }
 
     .index-banner {
@@ -145,7 +146,8 @@
     }
     .button {
         font-size: 24px;
-        width: 28%;
+        width: 40%;
+        border-bottom: 30px;
     }
 }
 
@@ -162,7 +164,7 @@
         }
         .button {
             font-size: 20px;
-            width: 25%;
+            width: 40%;
         }
     }
 
@@ -176,6 +178,9 @@
     }
     p {
         font-size: 16px;
+    }
+    .button {
+        width: 40%
     }
 }
     /*********************/
