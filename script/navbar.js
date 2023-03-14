@@ -5,9 +5,9 @@ function navbar() {
 
 
 function navMenu() {
-    if (document.getElementById('nav-menu').style.margin === '-100%') {
-        document.getElementById('nav-menu').style.margin = '0px';
+    if (document.getElementById('nav-menu').style.margin === '0px') {
+        document.getElementById('nav-menu').style.margin = '-100%';
     } else {
-        document.getElementById('nav-menu').style.margin = '-100%'
+        document.getElementById('nav-menu').style.margin = '0px'
     }
 }
