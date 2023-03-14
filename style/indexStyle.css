@@ -1,4 +1,47 @@
 /*index.html*/
+body {
+    animation: bodyBackground 9s;
+}
+
+@keyframes bodyBackground {
+    0% {
+        background: #d2ae6d;
+    }
+
+    50% {
+        background: #d2ae6d;
+    }
+
+    100% {
+        background: #00131E;
+    }
+}
+
+.logo {
+    animation: navLogo 3s
+}
+
+@keyframes navLogo {
+    0% {
+        transform: translateY(40vh) translateX(40vw) scale(3);
+    }
+    30% {
+        transform: translateY(40vh) translateX(40vw) scale(3);
+    }
+    100% {
+        transform: translateY(0%) translateX(0%) scale(1);
+    }
+}
+
+nav a {
+    animation: navLinks 4s;
+}
+
+@keyframes navLinks {
+    0% { opacity:0 }
+    40% { opacity:0 }
+    100% { opacity: 1 }
+}
 
 .index-banner {
     padding: 300px 0px 300px 0px;
@@ -11,7 +54,7 @@
     margin: 60px 0 0 0;
     font-size: 65px;
     font-family: 'Palatino Linotype';
-    animation: slideInBanner 2000ms;
+    animation: slideInBanner 6.5s;
 }
 
 .slide-left {
@@ -24,14 +67,14 @@
     border-radius: 20px;
     border: 3px solid #d2ae6d;
     box-shadow: 0 0 5px black, 0 0 10px black;
-    animation: fadeInTitle 3500ms;
+    animation: fadeInTitle 5s;
 }
 
 .subtitle {
     color: #82AECB;
     text-shadow: 1px 1px 3px black;
     font-family: Arial, Helvetica, sans-serif;
-    animation: fadeInSubtitle 6500ms;
+    animation: fadeInSubtitle 8s;
 }
 
 .slide-up {
@@ -39,41 +82,32 @@
 }
 
 .main-text {
-    animation: slideInText 8000ms;
+    animation: fadeInText 9s;
 }
 
 @keyframes slideInBanner {
-    from {
-        transform: translateX(100%);
-    }
-    to {
-        transform: translateX(0%);
-    }
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% { opacity: 0 }
+    30% { opacity: 0 }
+    100% { opacity: 1 }
 }
 
 
-@keyframes fadeInTitle {
+    @keyframes fadeInTitle {
     0% { opacity: 0; }
-    40% { opacity: 0; }
+    30% { opacity: 0; }
     100% { opacity: 1; }
 }
 
 @keyframes fadeInSubtitle {
     0% { opacity: 0; }
-    40% { opacity:0; }
+    60% { opacity:0; }
     100% { opacity: 1; }
 }
 
-@keyframes slideInText {
-    
-    from {
-        transform: translateY(100%);
-    }
-    to {
-        transform: translateY(0%);
-    }
+@keyframes fadeInText {
+    0% { opacity: 0; }
+    60% { opacity:0; }
+    100% { opacity: 1; }
 }
 
 .button-container{
@@ -89,7 +123,6 @@
     color: #00131E;
     padding: 10px 30px 10px 30px;
     border-radius: 50px;
-    text-align: center;
 }
 
     .button:hover {
