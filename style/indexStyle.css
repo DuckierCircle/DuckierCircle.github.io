@@ -23,13 +23,13 @@ body {
 
 @keyframes navLogo {
     0% {
-        transform: translateY(40vh) translateX(40vw) scale(0);
+        transform: translateY(40vh) translateX(30vw) scale(0);
     }
     25% {
-        transform: translateY(40vh) translateX(40vw) scale(3);
+        transform: translateY(40vh) translateX(30vw) scale(3);
     }
     40% {
-        transform: translateY(40vh) translateX(40vw) scale(3);
+        transform: translateY(40vh) translateX(30vw) scale(3);
     }
     100% {
         transform: translateY(0%) translateX(0%) scale(1);
@@ -46,6 +46,31 @@ nav a {
     0% { opacity:0 }
     40% { opacity:0 }
     100% { opacity: 1 }
+}
+
+.hamburger-container {
+    margin-top: 36px;
+    text-align: center;
+    border: 3px solid transparent;
+    width: 50px;
+    float: right;
+    animation: hamFadeIn 4s;
+}
+
+
+
+@keyframes hamFadeIn {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
 }
 
 .index-banner {
