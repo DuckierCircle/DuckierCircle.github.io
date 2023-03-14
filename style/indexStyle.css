@@ -23,9 +23,12 @@ body {
 
 @keyframes navLogo {
     0% {
+        transform: translateY(40vh) translateX(40vw) scale(1);
+    }
+    25% {
         transform: translateY(40vh) translateX(40vw) scale(3);
     }
-    30% {
+    40% {
         transform: translateY(40vh) translateX(40vw) scale(3);
     }
     100% {
