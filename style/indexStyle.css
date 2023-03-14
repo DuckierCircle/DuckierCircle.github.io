@@ -177,13 +177,12 @@ nav a {
         margin: 0px;
     }
 
-    }
-    .button {
-        display: block;
-        margin: 0px auto 60px auto;
-        width: 60%;
-        text-align: center;
-    }
+.button {
+    display: block;
+    margin: 0px auto 60px auto;
+    width: 60%;
+    text-align: center;
+}
 
     .index-banner {
         padding: 150px 0px 150px 0px;
