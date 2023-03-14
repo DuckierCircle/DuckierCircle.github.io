@@ -187,7 +187,6 @@ nav a:hover::after {
     }
 }
 
-/***navbar goes weird right after 725px***/
 @media (max-width: 725px) {
     nav {
         float: none;
@@ -236,7 +235,7 @@ nav a:hover::after {
     }
 
     .hamburger-container:hover {
-        border: 3px solid #00131E;
+        cursor: pointer;
     }
 }
 
