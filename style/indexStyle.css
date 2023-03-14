@@ -1,6 +1,6 @@
 /*index.html*/
 body {
-    animation: bodyBackground 9s;
+    animation: bodyBackground 8s;
 }
 
 @keyframes bodyBackground {
@@ -97,7 +97,7 @@ nav a {
     color: #82AECB;
     text-shadow: 1px 1px 3px black;
     font-family: Arial, Helvetica, sans-serif;
-    animation: fadeInSubtitle 7s;
+    animation: fadeInSubtitle 6s;
 }
 
 .slide-up {
@@ -105,7 +105,7 @@ nav a {
 }
 
 .main-text {
-    animation: fadeInText 9s;
+    animation: fadeInText 8s;
 }
 
 @keyframes slideInBanner {
