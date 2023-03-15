@@ -1,6 +1,6 @@
 /*index.html*/
 body {
-    animation: bodyBackground 9s;
+    animation: bodyBackground 10s;
 }
 
 @keyframes bodyBackground {
@@ -39,7 +39,7 @@ body {
 }
 
 nav a {
-    animation: navLinks 9s;
+    animation: navLinks 10s;
 }
 
 @keyframes navLinks {
@@ -49,7 +49,7 @@ nav a {
 }
 
 .hamburger-container {
-    animation: hamFadeIn 4s;
+    animation: hamFadeIn 10s;
 }
 
 @keyframes hamFadeIn {
@@ -57,7 +57,7 @@ nav a {
         opacity: 0;
     }
 
-    40% {
+    70% {
         opacity: 0;
     }
 
@@ -97,7 +97,7 @@ nav a {
     color: #82AECB;
     text-shadow: 1px 1px 3px black;
     font-family: Arial, Helvetica, sans-serif;
-    animation: fadeInSubtitle 6s;
+    animation: fadeInSubtitle 7s;
 }
 
 .slide-up {
@@ -105,7 +105,7 @@ nav a {
 }
 
 .main-text {
-    animation: fadeInText 9s;
+    animation: fadeInText 10s;
 }
 
 @keyframes slideInBanner {
@@ -123,7 +123,7 @@ nav a {
 
 @keyframes fadeInSubtitle {
     0% { opacity: 0; }
-    60% { opacity:0; }
+    70% { opacity:0; }
     100% { opacity: 1; }
 }
 
