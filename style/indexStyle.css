@@ -1,6 +1,6 @@
 /*index.html*/
 body {
-    animation: bodyBackground 8s;
+    animation: bodyBackground 9s;
 }
 
 @keyframes bodyBackground {
@@ -8,7 +8,7 @@ body {
         background: #d2ae6d;
     }
 
-    50% {
+    70% {
         background: #d2ae6d;
     }
 
@@ -39,12 +39,12 @@ body {
 }
 
 nav a {
-    animation: navLinks 4s;
+    animation: navLinks 9s;
 }
 
 @keyframes navLinks {
     0% { opacity:0 }
-    40% { opacity:0 }
+    70% { opacity:0 }
     100% { opacity: 1 }
 }
 
@@ -105,7 +105,7 @@ nav a {
 }
 
 .main-text {
-    animation: fadeInText 8s;
+    animation: fadeInText 9s;
 }
 
 @keyframes slideInBanner {
@@ -129,7 +129,7 @@ nav a {
 
 @keyframes fadeInText {
     0% { opacity: 0; }
-    60% { opacity:0; }
+    70% { opacity:0; }
     100% { opacity: 1; }
 }
 
