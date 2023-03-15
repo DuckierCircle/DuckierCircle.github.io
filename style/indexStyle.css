@@ -43,9 +43,9 @@ nav a {
 }
 
 @keyframes navLinks {
-    0% { opacity:0 }
-    70% { opacity:0 }
-    100% { opacity: 1 }
+    0% { opacity: 0; }
+    70% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 .hamburger-container {
@@ -54,15 +54,15 @@ nav a {
 
 @keyframes hamFadeIn {
     0% {
-        opacity: 0
+        opacity: 0;
     }
 
     40% {
-        opacity: 0
+        opacity: 0;
     }
 
     100% {
-        opacity: 1
+        opacity: 1;
     }
 }
 
@@ -109,9 +109,9 @@ nav a {
 }
 
 @keyframes slideInBanner {
-    0% { opacity: 0 }
-    30% { opacity: 0 }
-    100% { opacity: 1 }
+    0% { opacity: 0; }
+    30% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 
