@@ -25,17 +25,26 @@ body {
     0% {
         transform: translateY(40vh) translateX(40vw) scale(0);
     }
+
     25% {
         transform: translateY(40vh) translateX(40vw) scale(3);
     }
+
     40% {
         transform: translateY(40vh) translateX(40vw) scale(3);
     }
+
     100% {
         transform: translateY(0%) translateX(0%) scale(1);
     }
-    0% { opacity: 0 }
-    25% { opacity: 1 }
+
+    0% {
+        opacity: 0
+    }
+
+    25% {
+        opacity: 1
+    }
 }
 
 nav a {
@@ -43,9 +52,17 @@ nav a {
 }
 
 @keyframes navLinks {
-    0% { opacity: 0; }
-    70% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .hamburger-container {
@@ -109,31 +126,63 @@ nav a {
 }
 
 @keyframes slideInBanner {
-    0% { opacity: 0; }
-    30% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 
-    @keyframes fadeInTitle {
-    0% { opacity: 0; }
-    30% { opacity: 0; }
-    100% { opacity: 1; }
+@keyframes fadeInTitle {
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeInSubtitle {
-    0% { opacity: 0; }
-    70% { opacity:0; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeInText {
-    0% { opacity: 0; }
-    70% { opacity:0; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
-.button-container{
+.button-container {
     display: block;
     margin: 10px 100px 100px 100px;
 }
@@ -154,9 +203,9 @@ nav a {
         cursor: pointer;
     }
 
-.button:active {
-    background-image: linear-gradient(rgb(170, 134, 69), white, rgb(170, 134, 69));
-}
+    .button:active {
+        background-image: linear-gradient(rgb(170, 134, 69), white, rgb(170, 134, 69));
+    }
 
 
 /*Mobile Rules*/
@@ -188,6 +237,7 @@ nav a {
         padding: 150px 0px 150px 0px;
         font-size: 40px;
     }
+
     .logo {
         animation: navLogo 3s
     }
@@ -217,7 +267,6 @@ nav a {
             opacity: 1
         }
     }
-
 }
 
 
@@ -233,7 +282,7 @@ nav a {
 
         100% {
             opacity: 1
-        } 
+        }
     }
 }
 
@@ -242,12 +291,15 @@ nav a {
         padding: 100px 0px 100px 0px;
         font-size: 30px;
     }
+
     .subtitle {
         font-size: 25px;
     }
+
     p {
         font-size: 16px;
     }
+
     .button {
         font-size: 24px;
         width: 40%;
@@ -255,42 +307,48 @@ nav a {
     }
 }
 
-    @media (max-width: 520px) {
-        .index-banner {
-            padding: 75px 0px 75px 0px;
-            font-size: 30px;
-        }
-        .subtitle {
-            font-size: 25px;
-        }
-        p {
-            font-size: 16px;
-        }
-        .button {
-            font-size: 16px;
-            width: 40%;
-        }
+@media (max-width: 520px) {
+    .index-banner {
+        padding: 75px 0px 75px 0px;
+        font-size: 30px;
     }
+
+    .subtitle {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .button {
+        font-size: 16px;
+        width: 40%;
+    }
+}
 
 @media (max-width: 450px) {
     .index-banner {
         padding: 50px 0px 50px 0px;
         font-size: 25px;
     }
+
     .subtitle {
         font-size: 22px;
     }
+
     p {
         font-size: 16px;
     }
+
     .button {
         width: 40%
     }
 }
-    /*********************/
+/*********************/
 
 
-    /*veggietales links*/
+/*veggietales links*/
 .veggie-link {
     float: right;
 }
