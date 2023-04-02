@@ -1,6 +1,6 @@
 /*randomfact.html*/
 .fact-container {
-    margin: 300px 500px;
+    margin: 300px 100px;
     background: rgb(20, 20, 20);
     text-shadow: 1px 1px 3px black;
     border-radius: 10px;
@@ -26,7 +26,6 @@
 
 .buf-background {
     background-image: url(css-images/water-image.jpg);
-    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -63,7 +62,7 @@
 
 @media (max-width: 1500px) {
     .fact-container {
-        margin: 300px 300px;
+        margin: 300px 100px;
     }
 
     .fact {
@@ -73,7 +72,7 @@
 
 @media (max-width: 1100px) {
     .fact-container {
-        margin: 300px 200px;
+        margin: 300px 60px;
     }
 
     .fact {
@@ -83,10 +82,10 @@
 
 @media (max-width: 900px) {
     .fact-container {
-        margin: 300px 100px;
+        margin: 300px 60px;
     }
     .fact {
-        height: 50px;
+        height: 75px;
     }
     .button {
         font-size: 24px;
@@ -102,37 +101,37 @@
 
 @media (max-width: 750px) {
     .fact-container {
-        margin: 300px 50px;
+        margin: 300px 30px;
     }
 
     .fact {
-        height: 50px;
+        height: 75px;
     }
 }
 
 @media (max-width: 600px) {
     .fact-container {
-        margin: 300px 30px;
+        margin: 300px 20px;
     }
 
     .fact {
-        height: 50px;
+        height: 75px;
     }
 }
 
 @media (max-width: 525px) {
     .fact-container {
-        margin: 300px 15px;
+        margin: 300px 10px;
     }
 
     .fact {
-        height: 50px;
+        height: 75px;
     }
 }
 
 @media (max-width: 490px) {
     .fact-container {
-        margin: 300px 15px;
+        margin: 300px 5px;
     }
 
     .fact {
