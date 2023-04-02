@@ -1,6 +1,7 @@
 body {
-    background-image: url(css-images/image.jpg);
-    background-repeat: no-repeat;
+    background: repeating-linear-gradient(-45deg, #000000, #777777);
+    background-attachment: fixed;
+    margin: 0;
 }
 
 
