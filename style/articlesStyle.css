@@ -6,7 +6,6 @@ body {
 
 
 h1 {
-    margin-bottom: 10px;
     padding-bottom: 10px;
     font-size: 40px;
 }
@@ -23,7 +22,12 @@ h3 {
     text-align: left;
 }
 
-.link-container, .article-contents {
+p {
+    font-size: 25px;
+    margin: 0 10px 0 10px;
+}
+
+.link-container {
     text-align: left;
     margin-left: 20%;
     margin-right: 20%;
@@ -55,4 +59,25 @@ h3 {
 
 .article-resources {
     padding-top: 30px;
+}
+
+@media (max-width: 1200px) {
+    .link-container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    body {
+        background: linear-gradient(90deg, #222222 0%, #000000 3%, #555555 5%, #00131E 5%, #00131E 95%, #555555 95%, #000000 97%, #222222 100%);
+    }
+    h1 {
+        font-size: 25px;
+        padding-bottom: 0;
+    }
+    p {
+        font-size: 15px;
+    }
+    .article-link {
+        font-size: 20px;
+    }
 }
