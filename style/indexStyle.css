@@ -1,6 +1,6 @@
 /*index.html*/
 body {
-    animation: bodyBackground 10s;
+    animation: bodyBackground 3s;
 }
 
 @keyframes bodyBackground {
@@ -8,7 +8,7 @@ body {
         background: #d2ae6d;
     }
 
-    70% {
+    50% {
         background: #d2ae6d;
     }
 
@@ -17,6 +17,7 @@ body {
     }
 }
 
+/*
 .logo {
     animation: navLogo 3s
 }
@@ -46,9 +47,10 @@ body {
         opacity: 1
     }
 }
+    */
 
 nav a {
-    animation: navLinks 10s;
+    animation: navLinks 3s;
 }
 
 @keyframes navLinks {
@@ -56,7 +58,25 @@ nav a {
         opacity: 0;
     }
 
-    70% {
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.logo {
+    animation: logoFadeIn 3s;
+}
+
+@keyframes logoFadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
         opacity: 0;
     }
 
@@ -66,7 +86,7 @@ nav a {
 }
 
 .hamburger-container {
-    animation: hamFadeIn 10s;
+    animation: hamFadeIn 3s;
 }
 
 @keyframes hamFadeIn {
@@ -74,7 +94,7 @@ nav a {
         opacity: 0;
     }
 
-    70% {
+    50% {
         opacity: 0;
     }
 
@@ -94,7 +114,7 @@ nav a {
     margin: 60px 0 0 0;
     font-size: 65px;
     font-family: 'Palatino Linotype';
-    animation: slideInBanner 6.5s;
+    animation: slideInBanner 2s;
 }
 
 .slide-left {
@@ -107,14 +127,14 @@ nav a {
     border-radius: 20px;
     border: 3px solid #d2ae6d;
     box-shadow: 0 0 5px black, 0 0 10px black;
-    animation: fadeInTitle 5s;
+    animation: fadeInTitle 1s;
 }
 
 .subtitle {
     color: #82AECB;
     text-shadow: 1px 1px 3px black;
     font-family: Arial, Helvetica, sans-serif;
-    animation: fadeInSubtitle 7s;
+    animation: fadeInSubtitle 3s;
 }
 
 .slide-up {
@@ -122,20 +142,27 @@ nav a {
 }
 
 .main-text {
-    animation: fadeInText 10s;
+    animation: fadeInText 3s;
 }
 
 @keyframes slideInBanner {
     0% {
-        opacity: 0;
+        transform: translateX(100%);
+        border-radius: 100px;
     }
 
-    30% {
-        opacity: 0;
+    20% {
+        transform: translateX(100%);
+        border-radius: 100px;
+    }
+
+    90% {
+        transform: translateX(0%);
+        border-radius: 10px;
     }
 
     100% {
-        opacity: 1;
+        transform: translateX(0%)
     }
 }
 
@@ -145,7 +172,7 @@ nav a {
         opacity: 0;
     }
 
-    30% {
+    20% {
         opacity: 0;
     }
 
@@ -159,7 +186,7 @@ nav a {
         opacity: 0;
     }
 
-    70% {
+    50% {
         opacity: 0;
     }
 
@@ -173,7 +200,7 @@ nav a {
         opacity: 0;
     }
 
-    70% {
+    50% {
         opacity: 0;
     }
 
