@@ -264,36 +264,6 @@ nav a {
         padding: 150px 0px 150px 0px;
         font-size: 40px;
     }
-
-    .logo {
-        animation: navLogo 3s
-    }
-
-    @keyframes navLogo {
-        0% {
-            transform: translateY(40vh) translateX(30vw) scale(0);
-        }
-
-        25% {
-            transform: translateY(40vh) translateX(30vw) scale(3);
-        }
-
-        40% {
-            transform: translateY(40vh) translateX(30vw) scale(3);
-        }
-
-        100% {
-            transform: translateY(0%) translateX(0%) scale(1);
-        }
-
-        0% {
-            opacity: 0
-        }
-
-        25% {
-            opacity: 1
-        }
-    }
 }
 
 
